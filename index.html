@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>ChocoSearch</title>
+</head>
+<body class="bg-secondary">
+
+    <div class="container bg-light">
+        <div class="row">
+
+            <h1 class="col-12 text-center my-4">ChocoSearch</h1>
+            <h3 class="col-12 text-center mb-3">Valós idejű</h3>
+            <div class="col-12 text-center mb-3">
+
+                <input type="text" class="form-control:text" placeholder="írd" id="searchField">
+
+            </div>
+
+            <div class="col-9 mx-auto mb-4">
+                <table class="table table-light table-borderless table-striped shadow">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Név</th>
+                            <th>Kategória</th>
+                            <th>Márka</th>
+                            <th>Ország</th>
+                            <th>Súly</th>
+                            <th>Ár</th>
+                        </tr>
+                    </thead>
+                    <tbody id="content"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
