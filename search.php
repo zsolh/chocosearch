@@ -1,7 +1,7 @@
 <?php
 
-    if(isset($_POST['searchtext']) ){
-        $serchText = $_POST['searchtext'];
+    if(isset($_POST['searchText']) ){
+        $serchText = $_POST['searchText'];
 
         $dbCon = mysqli_connect('localhost', 'root', '', 'chocoshop');
         mysqli_query($dbCon, "SET NAMES utf8");
